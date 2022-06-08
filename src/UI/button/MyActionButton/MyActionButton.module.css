@@ -1,0 +1,33 @@
+.actionButton{
+	display:block;
+	background: #ca9080;
+	border-radius: 5px;
+	min-width: 100px;
+	color: #fff;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	font-size: 1rem;
+	padding: 10px;
+}
+.actionButton:hover{
+	background: #d29d8e;
+}
+.actionButton:active{
+	position: relative;
+	top: 3px;
+	box-shadow: 2px 3px 2px rgba(0, 0, 0,0.5);
+}
+
+@media (max-width: 767.98px) {
+	.actionButton {
+		font-size: 0.8em;
+		padding: 8px;
+	}
+}
+@media (max-width: 479.98px){
+	.actionButton {
+		padding: 5px;
+		min-width: 50px;
+	}
+}

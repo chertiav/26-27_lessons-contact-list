@@ -1,0 +1,24 @@
+.list-input{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #f1f1f1;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 5px;
+}
+.input-text{
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 1.3em;
+	width:100%;
+}
+@media (max-width: 479.98px){
+	.list-input {
+		flex-flow: row wrap;
+	}
+	.input-text{
+		font-size: 1em;
+	}
+}

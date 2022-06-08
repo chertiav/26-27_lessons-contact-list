@@ -1,0 +1,28 @@
+.item{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	border: 1px solid #f1f1f1;
+	background-color: #794f40;
+	border-radius: 5px;
+	padding: 5px 5px 5px 15px;
+	cursor: pointer;
+	margin: 5px;
+	align-items: center;
+}
+
+@media (max-width: 479.98px){
+	.item {
+		flex-flow: row wrap;
+		margin: 3px;
+		padding: 5px;
+	}
+}
+
+.item:hover{
+	background: #d29d8e;
+}
+
+.item:active{
+	background: #ddc6bf;
+}

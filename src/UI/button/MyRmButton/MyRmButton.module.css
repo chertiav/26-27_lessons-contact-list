@@ -1,0 +1,22 @@
+.rmButton{
+	display:block;
+	font-family: 'Times New Roman', Times, serif;
+	min-width: 30px;
+	min-height: 30px;
+	background: red;
+	border-radius: 4px;
+	color: #fff;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	font-size: 1em;
+	margin-left: 5px;
+}
+
+@media (max-width: 479.98px){
+	.rmButton {
+		min-width: 100%;
+		margin: 3px;
+		margin-left: 0px;
+	}
+}
